@@ -89,8 +89,7 @@ NS_SWIFT_NAME(jpegCompressionQuality);
  Controls sdk auto initailization.
  If not explicitly set, the default is true
  */
-@property (class, nonatomic, assign, getter=isAutoInitEnabled) BOOL autoInitEnabled
-DEPRECATED_MSG_ATTRIBUTE("Auto-initialization will be removed in the next major version release.");
+@property (class, nonatomic, assign, getter=isAutoInitEnabled) BOOL autoInitEnabled;
 
 /**
  Controls the auto logging of basic app events, such as activateApp and deactivateApp.
